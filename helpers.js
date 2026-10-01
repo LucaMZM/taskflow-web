@@ -1,3 +1,0 @@
-function mostrarMensaje(mensaje) {
-    console.log(mensaje);
-}
