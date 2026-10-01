@@ -6,8 +6,14 @@ function iniciarApp() {
     console.log("Aplicación iniciada");
 }
 
-function moduloPrincipal() {
-    console.log("Pendiente");
+function login(usuario, password) {
+    if (usuario && password) {
+        console.log("Usuario autenticado");
+        return true;
+    }
+
+    console.log("Credenciales incorrectas");
+    return false;
 }
 
 iniciarApp();
